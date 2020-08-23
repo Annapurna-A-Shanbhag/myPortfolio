@@ -1,0 +1,52 @@
+.extracur {
+    width:300px;
+    height:100px;
+    padding: 10px;
+    text-align:center;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px #ccc;
+    margin:30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    float:left;
+    background-color:whitesmoke;
+    animation: extraAnimation 1s ease-out forwards;
+    
+ 
+}
+
+.extraDiv
+{
+    margin-left:200px;
+    background:white;
+    margin-top:200px;
+   
+}
+@keyframes extraAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(-90%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@media screen and (max-width:700px)
+{
+    .extraDiv{
+        margin-left:30px;
+    }
+    .extracur {
+        width:250px;
+        height:70px;
+        padding:1px;
+        margin:20px;
+        cursor: pointer;
+        font-size:18px;
+    }
+}

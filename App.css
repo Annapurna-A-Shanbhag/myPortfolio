@@ -1,0 +1,91 @@
+.appDiv1
+{
+    background-color:gainsboro;
+    /*border: 1px solid rgb(247, 239, 239);
+    border-style: none;
+    width:250px;
+    height:760px;
+    margin-top:-30px;*/
+   height:450px;
+}
+.appDiv2
+{
+    margin-left:520px;
+    margin-right:100px;
+}
+.links{
+    display:inline;
+    margin-left:50px;
+}
+.title{
+    margin-left:300px;
+    position:relative;
+    top:40px;
+}
+.tagname{
+    margin-left:700px;
+    position:relative;
+    top:50px;
+}
+@media screen and (max-width:700px)
+{
+.appDiv1{
+    background-color:gainsboro;
+    height:500px;
+}
+.links{
+    display:inline-block;
+    margin-left:20px;
+    font-size:15px;
+}
+.title{
+   margin-left:25px;
+   position:relative;
+   top:40px;
+   font-size:25px;
+}
+.tagname{
+    margin-left:120px;
+    position:relative;
+    top:50px;
+    font-size:15px;
+}
+.appDiv2
+{
+    margin-left:20px;
+}
+}
+
+@media screen and (max-width:1200px) and (min-width:700px)
+{
+.appDiv1{
+    
+}
+.links{
+    display:inline-block;
+    margin-left:20px;
+    font-size:18px;
+}
+.title{
+   margin-left:300px;
+   position:relative;
+   top:40px;
+   font-size:30px;
+}
+.tagname{
+    margin-left:430px;
+    position:relative;
+    top:50px;
+    font-size:15px;
+}
+.appDiv2
+{
+    margin-left:100px;
+}
+}
+@media screen and (min-width:1200px)
+{
+    .appDiv1{
+        width:1600px;
+    }
+}

@@ -1,0 +1,45 @@
+#education {
+    width:300px;
+    padding:1px;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px #ccc;
+    margin-left:30px;
+    box-sizing:border-box;
+    float:left;
+    margin:20px;
+    height:300px;
+    background-color:whitesmoke;
+    animation: eduAnimation 1s ease-out forwards;
+}
+#educationDiv{
+   margin-left:40px;
+   margin-top:200px;
+}
+@keyframes eduAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(-90%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@media screen and (max-width:700px)
+
+{
+    #educationDiv{
+        margin-left:30px;
+        margin-top:200px;
+     }
+     #education {
+        width:250px;
+        padding:1px;
+        margin:20px;
+        height:300px;
+    }
+}
